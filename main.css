@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.logo {
+  width: 286.83px;
+  height: 238px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+h1 {
+  align-self: flex-start;
+}
