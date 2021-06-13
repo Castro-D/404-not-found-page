@@ -14,11 +14,14 @@
 .logo {
   width: 286.83px;
   height: 238px;
-  margin: 64px 44.17px 77.65px 44px;
+  margin: 64px 44.17px 60px 44px;
 }
 
 .logo img {
   width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -82,4 +85,21 @@ button {
   text-align: center;
   color: #BDBDBD;
   margin: 0 42px 24px 46px;
+}
+
+@media screen and (min-width: 1440px) {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .first-container {
+    align-self: flex-start;
+  }
+
+  .logo {
+    width: 539.22px;
+    height: 447.43px;
+    margin: 200px 118.78px 326.57px 77px;
+  }
 }
